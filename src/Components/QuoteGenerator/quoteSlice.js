@@ -14,7 +14,6 @@ const quoteSlice = createSlice({
   initialState,
   reducers: {
     getRandomQuote: state => {
-      g;
       state.quote =
         quoteData[Math.floor(Math.random() * quoteData.length)].quote;
       state.author =
