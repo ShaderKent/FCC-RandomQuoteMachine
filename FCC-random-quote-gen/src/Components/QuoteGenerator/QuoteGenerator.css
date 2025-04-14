@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+}
+
+.background {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    border-radius: 8px;
+    align-content: center;
+    margin: auto;
+    margin-top: 12.5vh;
+}
+
+#text{
+    margin: 50px;
+    width: 80%;
+    color: blue;
+    height: fit-content;
+    font-size: 28px;
+}
+
+#author{
+    color: blue;
+    margin-left: 50%;
+    margin-top: 5%;
+    font-size: 24px;
+}
+
+.button-wrapper {
+    position: absolute;
+    display: flex;
+    top: 500px;
+    left: 500px;
+    gap: 50px;
+}
+
+#new-quote {
+    width: 100px;
+    height: 58px;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 4px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.tweet-box {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+}
+
+.twitter-icon {
+    color: white;
+    background-color: blue;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+#tweet-quote {
+    width: 50px;
+    height: 50px;
+}
